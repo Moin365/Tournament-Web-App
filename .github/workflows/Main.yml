@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hunters Tournament</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #050510;
+    color: white;
+    text-align: center;
+}
+
+/* Neon Glow */
+.neon {
+    color: #00bfff;
+    text-shadow: 0 0 5px #00bfff,
+                 0 0 10px #00bfff,
+                 0 0 20px #00bfff;
+}
+
+header {
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #00bfff;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00bfff;
+    box-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff;
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+/* Cards */
+.card {
+    background: #0a0a1a;
+    border: 1px solid #00bfff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px #00bfff33;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="Hunters Tournament Logo" class="logo">
+    <h1 class="neon">HUNTERS TOURNAMENT</h1>
+    <p>Join Competitive Battles & Win Rewards</p>
+
+    <a href="https://chat.whatsapp.com/HhSPNtzBa8XAc3utndPgPK?mode=gi_t" class="btn">Join WhatsApp</a>
+    <a href="#" class="btn">Download App</a>
+</header>
+
+<div class="section">
+    <h2 class="neon">Game Modes</h2>
+
+    <div class="card">
+        <h3>1 vs 1</h3>
+        <p>Solo intense battle</p>
+    </div>
+
+    <div class="card">
+        <h3>2 vs 2</h3>
+        <p>Play with your teammate</p>
+    </div>
+
+    <div class="card">
+        <h3>4 vs 4 Squad</h3>
+        <p>Full squad action</p>
+    </div>
+
+</div>
+
+<div class="section">
+    <h2 class="neon">Tournament Info</h2>
+
+    <div class="card">
+        <p>✔ No fixed entry fee</p>
+        <p>✔ Up to 48 players per match</p>
+        <p>✔ Fair & competitive gameplay</p>
+    </div>
+</div>
+
+<div class="section">
+    <h2 class="neon">Support</h2>
+
+    <div class="card">
+        <p>Email us for help:</p>
+        <p><strong>mdmoinhossain365@gmail.com</strong></p>
+    </div>
+</div>
+
+<footer>
+    © 2026 Hunters Tournament | All Rights Reserved
+</footer>
+
+</body>
+</html>
